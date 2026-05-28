@@ -1,0 +1,5 @@
+*.o
+sai_blocks.exe
+highscore.dat
+.replit
+replit.nix
