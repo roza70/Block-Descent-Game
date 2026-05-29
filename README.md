@@ -110,8 +110,10 @@ sai-block-descent/
 
 ## 👤 Author
 
-**Your Name** — [github.com/roza70](https://github.com/roza70)
+Tahsin Akter Roza
 
 ---
 
 _Built with C++17 · SDL2 · Inspired by Dr. Stone_
+
+[def]: https://github.com/roza70
