@@ -23,7 +23,12 @@ $OBJ = $SRC | ForEach-Object { $_ -replace "\.cpp$", ".o" }
 & $CXX -o $BIN $OBJ @LDFLAGS
 
 if ($LASTEXITCODE -eq 0) {
-    Write-Host "Build successful! Run with: .\$BIN"
+    $Mingw = "C:\msys64\mingw64\bin"
+    foreach ($dll in @("SDL2.dll", "SDL2_ttf.dll", "libgcc_s_seh-1.dll", "libstdc++-6.dll", "libwinpthread-1.dll")) {
+        $src = Join-Path $Mingw $dll
+        if (Test-Path $src) { Copy-Item $src $PSScriptRoot -Force }
+    }
+    Write-Host "Build successful! Run with: .\run.ps1"
 } else {
     Write-Error "Linking failed"
     exit 1
