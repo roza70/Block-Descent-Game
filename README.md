@@ -13,10 +13,17 @@ A **Dr. Stone** themed falling block game featuring **Sai Nanami**, built with *
 
 ## 📸 Screenshots
 
-![Gameplay](screenshots/gameplay.png)
-<img width="1067" height="1001" alt="image" src="https://github.com/user-attachments/assets/e7c5c85c-d53f-4681-bd8e-a34fbf7d2236" />
+![Gameplay]
+<img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/e7c5c85c-d53f-4681-bd8e-a34fbf7d2236" />
 
-![GameOver](screenshots/gameover.png)
+![GameOver]
+<img width="800" height="700" alt="Game&#39;s over" src="https://github.com/user-attachments/assets/a6e77efd-5b4b-4fc2-8914-c9a8558d7477" />
+
+[starFallingAndBump]
+<img width="800" height="700" alt="star&#39;s bump" src="https://github.com/user-attachments/assets/e2e481ef-3d33-4a27-90a6-8d75a5a71460" />
+
+
+
 
 ---
 
